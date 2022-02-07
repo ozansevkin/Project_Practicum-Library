@@ -10,7 +10,7 @@
 
   <body>
     <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
-    <main class="page">
+    <div class="page">
       <header class="header">
         <nav class="nav">
           <img
@@ -41,8 +41,8 @@
         </div>
       </header>
 
-      <div class="content">
-        <div class="staff">
+      <main class="content">
+        <section class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <h3 class="staff__subtitle">That our readers love</h3>
           <!-- Wrap those cards! -->
@@ -111,9 +111,9 @@
               <p class="card__footer">Steve McConnell</p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="events">
+        <section class="events">
           <div class="events__content">
             <h3 class="events__heading">Upcoming events:</h3>
             <h2 class="events__title">
@@ -143,9 +143,9 @@
             <a href="#" class="events__more">More events &rarr;</a>
           </div>
           <!-- Start creating the composition here -->
-        </div>
+        </section>
 
-        <div class="membership">
+        <section class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -203,8 +203,8 @@
               </p>
             </li>
           </ul>
-        </div>
-        <div class="about">
+        </section>
+        <section class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -226,11 +226,11 @@
             </p>
           </div>
           <!-- <div class="about__circle"></div> -->
-        </div>
-      </div>
-      <div class="footer">
+        </section>
+      </main>
+      <footer class="footer">
         <!-- The time to mark up the footer has come, you can do it 💪 -->
-      </div>
-    </main>
+      </footer>
+    </div>
   </body>
 </html>
