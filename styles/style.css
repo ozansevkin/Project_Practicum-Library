@@ -319,7 +319,6 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   display: flex;
   justify-content: center;
   column-gap: 40px;
@@ -361,7 +360,7 @@
   line-height: 30px;
   font-weight: 500;
   max-width: 154px;
-  margin-top: 0;
+  margin: 0;
   z-index: 2;
 }
 
@@ -453,6 +452,5 @@
 }
 
 .footer__copyrights {
-  max-width: fit-content;
   margin: 15vh auto 0 0;
 }
